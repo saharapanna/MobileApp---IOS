@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1868931423EB1B9F00EF6699 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1868931323EB1B9F00EF6699 /* AppDelegate.swift */; };
+		1868931623EB1B9F00EF6699 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1868931523EB1B9F00EF6699 /* ViewController.swift */; };
+		1868931923EB1B9F00EF6699 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1868931723EB1B9F00EF6699 /* Main.storyboard */; };
+		1868931B23EB1BA000EF6699 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1868931A23EB1BA000EF6699 /* Assets.xcassets */; };
+		1868931E23EB1BA000EF6699 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1868931C23EB1BA000EF6699 /* LaunchScreen.storyboard */; };
+		1868932923EB1BA000EF6699 /* flowershopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1868932823EB1BA000EF6699 /* flowershopTests.swift */; };
+		1868933423EB1BA000EF6699 /* flowershopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1868933323EB1BA000EF6699 /* flowershopUITests.swift */; };
+		1868934223EB1BC200EF6699 /* FlowerClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1868934123EB1BC200EF6699 /* FlowerClass.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1868932523EB1BA000EF6699 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1868930823EB1B9F00EF6699 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1868930F23EB1B9F00EF6699;
+			remoteInfo = flowershop;
+		};
+		1868933023EB1BA000EF6699 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1868930823EB1B9F00EF6699 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1868930F23EB1B9F00EF6699;
+			remoteInfo = flowershop;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1868931023EB1B9F00EF6699 /* flowershop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = flowershop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1868931323EB1B9F00EF6699 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1868931523EB1B9F00EF6699 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1868931823EB1B9F00EF6699 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1868931A23EB1BA000EF6699 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1868931D23EB1BA000EF6699 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1868931F23EB1BA000EF6699 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1868932423EB1BA000EF6699 /* flowershopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = flowershopTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1868932823EB1BA000EF6699 /* flowershopTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = flowershopTests.swift; sourceTree = "<group>"; };
+		1868932A23EB1BA000EF6699 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1868932F23EB1BA000EF6699 /* flowershopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = flowershopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1868933323EB1BA000EF6699 /* flowershopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = flowershopUITests.swift; sourceTree = "<group>"; };
+		1868933523EB1BA000EF6699 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1868934123EB1BC200EF6699 /* FlowerClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowerClass.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1868930D23EB1B9F00EF6699 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1868932123EB1BA000EF6699 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1868932C23EB1BA000EF6699 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1868930723EB1B9F00EF6699 = {
+			isa = PBXGroup;
+			children = (
+				1868931223EB1B9F00EF6699 /* flowershop */,
+				1868932723EB1BA000EF6699 /* flowershopTests */,
+				1868933223EB1BA000EF6699 /* flowershopUITests */,
+				1868931123EB1B9F00EF6699 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1868931123EB1B9F00EF6699 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1868931023EB1B9F00EF6699 /* flowershop.app */,
+				1868932423EB1BA000EF6699 /* flowershopTests.xctest */,
+				1868932F23EB1BA000EF6699 /* flowershopUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1868931223EB1B9F00EF6699 /* flowershop */ = {
+			isa = PBXGroup;
+			children = (
+				1868931323EB1B9F00EF6699 /* AppDelegate.swift */,
+				1868931523EB1B9F00EF6699 /* ViewController.swift */,
+				1868931723EB1B9F00EF6699 /* Main.storyboard */,
+				1868934123EB1BC200EF6699 /* FlowerClass.swift */,
+				1868931A23EB1BA000EF6699 /* Assets.xcassets */,
+				1868931C23EB1BA000EF6699 /* LaunchScreen.storyboard */,
+				1868931F23EB1BA000EF6699 /* Info.plist */,
+			);
+			path = flowershop;
+			sourceTree = "<group>";
+		};
+		1868932723EB1BA000EF6699 /* flowershopTests */ = {
+			isa = PBXGroup;
+			children = (
+				1868932823EB1BA000EF6699 /* flowershopTests.swift */,
+				1868932A23EB1BA000EF6699 /* Info.plist */,
+			);
+			path = flowershopTests;
+			sourceTree = "<group>";
+		};
+		1868933223EB1BA000EF6699 /* flowershopUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1868933323EB1BA000EF6699 /* flowershopUITests.swift */,
+				1868933523EB1BA000EF6699 /* Info.plist */,
+			);
+			path = flowershopUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1868930F23EB1B9F00EF6699 /* flowershop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1868933823EB1BA000EF6699 /* Build configuration list for PBXNativeTarget "flowershop" */;
+			buildPhases = (
+				1868930C23EB1B9F00EF6699 /* Sources */,
+				1868930D23EB1B9F00EF6699 /* Frameworks */,
+				1868930E23EB1B9F00EF6699 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = flowershop;
+			productName = flowershop;
+			productReference = 1868931023EB1B9F00EF6699 /* flowershop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1868932323EB1BA000EF6699 /* flowershopTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1868933B23EB1BA000EF6699 /* Build configuration list for PBXNativeTarget "flowershopTests" */;
+			buildPhases = (
+				1868932023EB1BA000EF6699 /* Sources */,
+				1868932123EB1BA000EF6699 /* Frameworks */,
+				1868932223EB1BA000EF6699 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1868932623EB1BA000EF6699 /* PBXTargetDependency */,
+			);
+			name = flowershopTests;
+			productName = flowershopTests;
+			productReference = 1868932423EB1BA000EF6699 /* flowershopTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1868932E23EB1BA000EF6699 /* flowershopUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1868933E23EB1BA000EF6699 /* Build configuration list for PBXNativeTarget "flowershopUITests" */;
+			buildPhases = (
+				1868932B23EB1BA000EF6699 /* Sources */,
+				1868932C23EB1BA000EF6699 /* Frameworks */,
+				1868932D23EB1BA000EF6699 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1868933123EB1BA000EF6699 /* PBXTargetDependency */,
+			);
+			name = flowershopUITests;
+			productName = flowershopUITests;
+			productReference = 1868932F23EB1BA000EF6699 /* flowershopUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1868930823EB1B9F00EF6699 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = GBC;
+				TargetAttributes = {
+					1868930F23EB1B9F00EF6699 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					1868932323EB1BA000EF6699 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 1868930F23EB1B9F00EF6699;
+					};
+					1868932E23EB1BA000EF6699 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 1868930F23EB1B9F00EF6699;
+					};
+				};
+			};
+			buildConfigurationList = 1868930B23EB1B9F00EF6699 /* Build configuration list for PBXProject "flowershop" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1868930723EB1B9F00EF6699;
+			productRefGroup = 1868931123EB1B9F00EF6699 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1868930F23EB1B9F00EF6699 /* flowershop */,
+				1868932323EB1BA000EF6699 /* flowershopTests */,
+				1868932E23EB1BA000EF6699 /* flowershopUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1868930E23EB1B9F00EF6699 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1868931E23EB1BA000EF6699 /* LaunchScreen.storyboard in Resources */,
+				1868931B23EB1BA000EF6699 /* Assets.xcassets in Resources */,
+				1868931923EB1B9F00EF6699 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1868932223EB1BA000EF6699 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1868932D23EB1BA000EF6699 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1868930C23EB1B9F00EF6699 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1868931623EB1B9F00EF6699 /* ViewController.swift in Sources */,
+				1868934223EB1BC200EF6699 /* FlowerClass.swift in Sources */,
+				1868931423EB1B9F00EF6699 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1868932023EB1BA000EF6699 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1868932923EB1BA000EF6699 /* flowershopTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1868932B23EB1BA000EF6699 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1868933423EB1BA000EF6699 /* flowershopUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1868932623EB1BA000EF6699 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1868930F23EB1B9F00EF6699 /* flowershop */;
+			targetProxy = 1868932523EB1BA000EF6699 /* PBXContainerItemProxy */;
+		};
+		1868933123EB1BA000EF6699 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1868930F23EB1B9F00EF6699 /* flowershop */;
+			targetProxy = 1868933023EB1BA000EF6699 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1868931723EB1B9F00EF6699 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1868931823EB1B9F00EF6699 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1868931C23EB1BA000EF6699 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1868931D23EB1BA000EF6699 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1868933623EB1BA000EF6699 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1868933723EB1BA000EF6699 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1868933923EB1BA000EF6699 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = flowershop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = GBC.flowershop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1868933A23EB1BA000EF6699 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = flowershop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = GBC.flowershop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1868933C23EB1BA000EF6699 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = flowershopTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = GBC.flowershopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/flowershop.app/flowershop";
+			};
+			name = Debug;
+		};
+		1868933D23EB1BA000EF6699 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = flowershopTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = GBC.flowershopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/flowershop.app/flowershop";
+			};
+			name = Release;
+		};
+		1868933F23EB1BA000EF6699 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = flowershopUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = GBC.flowershopUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = flowershop;
+			};
+			name = Debug;
+		};
+		1868934023EB1BA000EF6699 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = flowershopUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = GBC.flowershopUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = flowershop;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1868930B23EB1B9F00EF6699 /* Build configuration list for PBXProject "flowershop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1868933623EB1BA000EF6699 /* Debug */,
+				1868933723EB1BA000EF6699 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1868933823EB1BA000EF6699 /* Build configuration list for PBXNativeTarget "flowershop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1868933923EB1BA000EF6699 /* Debug */,
+				1868933A23EB1BA000EF6699 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1868933B23EB1BA000EF6699 /* Build configuration list for PBXNativeTarget "flowershopTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1868933C23EB1BA000EF6699 /* Debug */,
+				1868933D23EB1BA000EF6699 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1868933E23EB1BA000EF6699 /* Build configuration list for PBXNativeTarget "flowershopUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1868933F23EB1BA000EF6699 /* Debug */,
+				1868934023EB1BA000EF6699 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1868930823EB1B9F00EF6699 /* Project object */;
+}
